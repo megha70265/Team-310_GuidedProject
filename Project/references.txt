@@ -1,0 +1,15 @@
+For whole Project:
+https://smartinternz.com/Student/guided_project_info/524395#
+
+Creation of the model:
+https://towardsdatascience.com/power-of-xgboost-lstm-in-forecasting-natural-gas-price-f426fada80f0
+https://towardsdatascience.com/machine-learning-basics-decision-tree-regression-1d73ea003fda
+https://scikit-learn.org/stable/modules/tree.html
+https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html
+
+Book:
+Aurelion Geron, Hands-On Machine Learning with Scikit – Learn, Keras and Tensorflow, 2nd Edition, O.Reilly, 2019
+
+For Integration:
+https://stackoverflow.com/questions/43645790/passing-javascript-variable-to-python-flask
+https://www.geeksforgeeks.org/pass-javascript-variables-to-python-in-flask/

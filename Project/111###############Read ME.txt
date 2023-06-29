@@ -1,0 +1,9 @@
+to run the project,
+open the extracted folder in the anaconda prompt
+type > python app.py
+
+and open the browser and go to the site
+localhost:5000
+
+if you're not seeing any styles, try clearing browser cache
+by pressing CTRL + SHIFT + R to refresh

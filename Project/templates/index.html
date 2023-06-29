@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Price Prediction</title>
+    <!-- <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}"> -->
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="../static/js/jquery-3.6.1.min.js"></script>
+    <script src="../static/js/script.js"></script>
+</head>
+<body>
+    <div class="fullBody">
+        <header>
+            <h1>Natural Gas Price Prediction</h1>
+        </header>
+        <div class="myForm">
+            <form action="/predict" method="post" class="inputForm" onsubmit="return validate();">
+                <h2 id="myLabel">Enter Date to Predict</h2>
+                <div class="inputItems">
+                    <input type="text" name="date" id="date" class="date" placeholder="DATE">
+                    <div class="valid" id="dateValid"></div>
+                    <input type="text" name="month" id="month" class="month" placeholder="MONTH">
+                    <div class="valid" id="monthValid"></div>
+                    <input type="text" name="year" id="year" class="year" placeholder="YEAR">
+                    <div class="valid" id="yearValid"></div>
+                </div>
+                <input type="submit" value="Predict" id="predict" class="predict">
+            </form>
+        </div>
+        <div class="extraBtns">
+            <button name="todaybtn" onclick="todayPred()">Today's Prediction</button>
+            <button name="tomorrowbtn" onclick="tomorrowPred();">Tomorrow's Prediction</button>
+        </div>
+        <h3 class="result" name="result" id="result">{{prediction_text}}</h3>
+    </div> 
+</body>
+</html>

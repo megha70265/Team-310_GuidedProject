@@ -1,0 +1,115 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+                    Geneva, Verdana, sans-serif;
+    background-color:rgb(1, 2, 17);
+    color: rgb(231, 227, 227);
+}
+
+.fullBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Form validation */
+.myForm{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(203, 227, 248, 0.171);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#myLabel{
+    margin: 5px;
+}
+
+.inputItems{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.inputItems input{
+    background-color: rgba(192, 201, 209, 0.315);
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input::placeholder{
+    color: rgb(231, 227, 227);
+    font-weight: 200;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(223, 223, 223);
+}
+
+#predict{
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px;
+    color: rgb(231, 227, 227);
+    background-color: rgb(5, 5, 141);
+    border: 0px;
+    border-radius: 8px;
+    outline: none;
+}
+
+#predict:hover{
+    font-weight: bold;
+    box-shadow: 1px 1px rgba(255, 255, 255, 0.37);
+}
+
+/* Button styles */
+.extraBtns{
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+button{
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: 0px;
+    background-color: rgba(27, 34, 133, 0.685);
+    color: whitesmoke;
+}
+
+button:hover{
+    box-shadow: 1px 1px 1px;
+}
+
+/* Validation */
+.valid{
+    color: bisque;
+    display: none;
+}
+
